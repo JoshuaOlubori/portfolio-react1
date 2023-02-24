@@ -1,7 +1,7 @@
 {
   "name": "tutorial-b",
   "version": "0.1.0",
-  "homepage": "http://JoshuaOlubori.github.io/portfolio-react1",
+  "homepage": "http://JoshuaOlubori.github.io/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
