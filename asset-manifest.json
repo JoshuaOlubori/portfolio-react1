@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio-react1/static/css/main.4b79c3e9.css",
-    "main.js": "/portfolio-react1/static/js/main.757befbe.js",
-    "static/js/787.475eadbc.chunk.js": "/portfolio-react1/static/js/787.475eadbc.chunk.js",
-    "static/media/work2.jpg": "/portfolio-react1/static/media/work2.d425649408281b408e10.jpg",
-    "static/media/profile_a.JPG": "/portfolio-react1/static/media/profile_a.68a2c4ebd98cc738809b.JPG",
-    "static/media/profile_b.JPG": "/portfolio-react1/static/media/profile_b.c41ad76e9c8ee9e3ba9d.JPG",
-    "static/media/work3.jpg": "/portfolio-react1/static/media/work3.96d704110293ba443eb9.jpg",
-    "static/media/work1.jpg": "/portfolio-react1/static/media/work1.556153ef4960e6632b70.jpg",
-    "static/media/work4.png": "/portfolio-react1/static/media/work4.421926a0fee3c8f15cdc.png",
-    "static/media/work5.png": "/portfolio-react1/static/media/work5.01eb6d9409912fa2e2a6.png",
-    "static/media/testimonial1.JPG": "/portfolio-react1/static/media/testimonial1.fe4ec095e179b718cba7.JPG",
-    "static/media/data-books.jpg": "/portfolio-react1/static/media/data-books.18da9972c1c4da96b856.jpg",
-    "static/media/default.jpg": "/portfolio-react1/static/media/default.7b35df57b66462df74f7.jpg",
-    "static/media/testimonial2.JPG": "/portfolio-react1/static/media/testimonial2.043f94df927e2c1c00bb.JPG",
-    "static/media/Edun_Joshua_Resume.pdf": "/portfolio-react1/static/media/Edun_Joshua_Resume.16efae5b16999c200ce5.pdf",
-    "index.html": "/portfolio-react1/index.html",
-    "main.4b79c3e9.css.map": "/portfolio-react1/static/css/main.4b79c3e9.css.map",
-    "main.757befbe.js.map": "/portfolio-react1/static/js/main.757befbe.js.map",
-    "787.475eadbc.chunk.js.map": "/portfolio-react1/static/js/787.475eadbc.chunk.js.map"
+    "main.css": "/static/css/main.93fc56ec.css",
+    "main.js": "/static/js/main.9554d3c5.js",
+    "static/js/787.475eadbc.chunk.js": "/static/js/787.475eadbc.chunk.js",
+    "static/media/work2.jpg": "/static/media/work2.d425649408281b408e10.jpg",
+    "static/media/profile_a.JPG": "/static/media/profile_a.68a2c4ebd98cc738809b.JPG",
+    "static/media/profile_b.JPG": "/static/media/profile_b.c41ad76e9c8ee9e3ba9d.JPG",
+    "static/media/work3.jpg": "/static/media/work3.96d704110293ba443eb9.jpg",
+    "static/media/work1.jpg": "/static/media/work1.556153ef4960e6632b70.jpg",
+    "static/media/work4.png": "/static/media/work4.421926a0fee3c8f15cdc.png",
+    "static/media/work5.png": "/static/media/work5.01eb6d9409912fa2e2a6.png",
+    "static/media/testimonial1.JPG": "/static/media/testimonial1.fe4ec095e179b718cba7.JPG",
+    "static/media/data-books.jpg": "/static/media/data-books.18da9972c1c4da96b856.jpg",
+    "static/media/default.jpg": "/static/media/default.7b35df57b66462df74f7.jpg",
+    "static/media/testimonial2.JPG": "/static/media/testimonial2.043f94df927e2c1c00bb.JPG",
+    "static/media/Edun_Joshua_Resume.pdf": "/static/media/Edun_Joshua_Resume.efe40577fbf37d4b4dcf.pdf",
+    "index.html": "/index.html",
+    "main.93fc56ec.css.map": "/static/css/main.93fc56ec.css.map",
+    "main.9554d3c5.js.map": "/static/js/main.9554d3c5.js.map",
+    "787.475eadbc.chunk.js.map": "/static/js/787.475eadbc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b79c3e9.css",
-    "static/js/main.757befbe.js"
+    "static/css/main.93fc56ec.css",
+    "static/js/main.9554d3c5.js"
   ]
 }
