@@ -64,7 +64,7 @@ const Blog = () => {
                 <div className="blog__item card card-two">
                     <span className="blog__date text-cs">{blog3.date.toUpperCase()}</span>
                     <h3 className="blog__title">{blog3.title}</h3>
-                    <img src={Img3} alt="" className="blog__img" />
+                    <img src={Img1} alt="" className="blog__img" />
                     <p className="blog__description">
                         {blog3.description}
                     </p>
