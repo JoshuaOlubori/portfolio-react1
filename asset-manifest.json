@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio-react1/static/css/main.4b79c3e9.css",
-    "main.js": "/portfolio-react1/static/js/main.be16bf99.js",
+    "main.js": "/portfolio-react1/static/js/main.f976de64.js",
     "static/js/787.475eadbc.chunk.js": "/portfolio-react1/static/js/787.475eadbc.chunk.js",
     "static/media/work2.jpg": "/portfolio-react1/static/media/work2.d425649408281b408e10.jpg",
     "static/media/profile_a.JPG": "/portfolio-react1/static/media/profile_a.68a2c4ebd98cc738809b.JPG",
     "static/media/profile_b.JPG": "/portfolio-react1/static/media/profile_b.c41ad76e9c8ee9e3ba9d.JPG",
     "static/media/work3.jpg": "/portfolio-react1/static/media/work3.96d704110293ba443eb9.jpg",
+    "static/media/work6.JPG": "/portfolio-react1/static/media/work6.7ec5bc63f863a6d19f7a.JPG",
     "static/media/work1.jpg": "/portfolio-react1/static/media/work1.556153ef4960e6632b70.jpg",
     "static/media/03.jpg": "/portfolio-react1/static/media/03.82670917fdf4909d2406.jpg",
     "static/media/work4.png": "/portfolio-react1/static/media/work4.421926a0fee3c8f15cdc.png",
@@ -18,11 +19,11 @@
     "static/media/Edun_Joshua_Resume.pdf": "/portfolio-react1/static/media/Edun_Joshua_Resume.efe40577fbf37d4b4dcf.pdf",
     "index.html": "/portfolio-react1/index.html",
     "main.4b79c3e9.css.map": "/portfolio-react1/static/css/main.4b79c3e9.css.map",
-    "main.be16bf99.js.map": "/portfolio-react1/static/js/main.be16bf99.js.map",
+    "main.f976de64.js.map": "/portfolio-react1/static/js/main.f976de64.js.map",
     "787.475eadbc.chunk.js.map": "/portfolio-react1/static/js/787.475eadbc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b79c3e9.css",
-    "static/js/main.be16bf99.js"
+    "static/js/main.f976de64.js"
   ]
 }
