@@ -24,10 +24,9 @@ const Footer = () => {
                     <a href="https://www.instagram.com/joshua_olubori" className="footer__social-link" target="_blank">
                         <i className="bx bxl-instagram"></i>
                     </a>
-                    <a href="https://twitter.com/joshua_olubori" className="footer__social-link" target="_blank">
-                        <i className="bx bxl-twitter"></i>
-                    </a>
-
+                    <a href="https://www.linkedin.com/in/joshua-edun" className="footer__social-link" target="_blank">
+                        <i class='bx bxl-linkedin-square'></i></a>
+                        
                     <a href="https://github.com/JoshuaOlubori
 " className="footer__social-link" target="_blank">
                         <i className="bx bxl-github"></i>

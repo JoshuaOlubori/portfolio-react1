@@ -1,8 +1,8 @@
 import React from 'react';
 import './blog.css';
-import Img1 from '../../assets/blog_images/default.jpg';
-import Img2 from '../../assets/blog_images/data-books.jpg';
-import Img3 from '../../assets/blog_images/03.jpg';
+import Img1 from '../../assets/blog_images/data-books.jpg';
+import Img2 from '../../assets/blog_images/03.jpg';
+import Img3 from '../../assets/blog_images/kimball.jpg';
 
 const Blog = () => {
 
@@ -21,15 +21,15 @@ const Blog = () => {
     }
 
     const blog3 = {
-        date: 'JULY, 2023',
-        title: 'PowerBI vs. Tableau',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit deleniti et culpa inventore earum similique cupiditate cumque iusto asperiores. Optio mollitia possimus saepe quos debitis officiacommodi ipsa repellendus omnis.',
-        link: '#'
+        date: 'MARCH, 2023',
+        title: 'Taking notes from Kimball’s famous book, The Data Warehouse Toolkit (Chapter 1)',
+        description: 'Taking notes from the first chapter of this seminal book to improve retention',
+        link: 'https://medium.com/@joshuaolubori/taking-notes-from-kimballs-famous-book-chapter-1-f67da3938a8d'
     }
 
     return (
         <section className="blog section" id="blog">
-            <h2 className="section__title text-cs">Latest Blogs</h2>
+            <h2 className="section__title text-cs">Latest Posts</h2>
             <p className="section__subtitle">
                 My <span>Articles</span>
             </p>
@@ -38,7 +38,7 @@ const Blog = () => {
                 <div className="blog__item card card-two">
                     <span className="blog__date text-cs">{blog1.date.toUpperCase()}</span>
                     <h3 className="blog__title">{blog1.title}</h3>
-                    <img src={Img2} alt="" className="blog__img" />
+                    <img src={Img1} alt="" className="blog__img" />
                     <p className="blog__description">
                         {blog1.description}
                     </p>
@@ -51,7 +51,7 @@ const Blog = () => {
                 <div className="blog__item card card-two">
                     <span className="blog__date text-cs">{blog2.date.toUpperCase()}</span>
                     <h3 className="blog__title">{blog2.title}</h3>
-                    <img src={Img3} alt="" className="blog__img" />
+                    <img src={Img2} alt="" className="blog__img" />
                     <p className="blog__description">
                         {blog2.description}
                     </p>
@@ -64,7 +64,7 @@ const Blog = () => {
                 <div className="blog__item card card-two">
                     <span className="blog__date text-cs">{blog3.date.toUpperCase()}</span>
                     <h3 className="blog__title">{blog3.title}</h3>
-                    <img src={Img1} alt="" className="blog__img" />
+                    <img src={Img3} alt="" className="blog__img" />
                     <p className="blog__description">
                         {blog3.description}
                     </p>
