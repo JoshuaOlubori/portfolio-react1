@@ -1,25 +1,25 @@
 import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 import './contact.css';
 
 const Contact = () => {
-    const form = useRef();
+    // const form = useRef();
 
-    const sendEmail = (e) => {
-        e.preventDefault();
-        emailjs.sendForm('service_va4zghr', 'template_wlwq30l', form.current,
-            'zjWLPilWptZjYHV17')
-        e.target.reset()
-    };
+    // const sendEmail = (e) => {
+    //     e.preventDefault();
+    //     emailjs.sendForm('service_va4zghr', 'template_wlwq30l', form.current,
+    //         'zjWLPilWptZjYHV17')
+    //     e.target.reset()
+    // };
 
     return (
         <section className="contact section" id="contact">
             <h2 className="section__title">Get in touch</h2>
-            <span className="section__subtitle">Contact Me</span>
+            <span className="section__subtitle">Hire Me!</span>
 
             <div className="contact__container container grid">
                 <div className="contact__content">
-                    <h3 className="contact__title">Talk to me</h3>
+                    {/* <h3 className="contact__title">Talk to me</h3> */}
 
                     <div className="contact__info">
                         <div className="contact__card">
@@ -35,13 +35,13 @@ const Contact = () => {
 
                             <h3 className="contact__card-title">Whatsapp</h3>
                             <span className="contact__card-data">+2348050771951</span>
-                            <a href="https://api.whatsapp.com/send?phone=2348050771951&text=Hello, more information!" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=2348050771951&text=Hello, more information!" className="contact__button">Chat me up! <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
 
                     </div>
                 </div>
 
-                <div className="contact__content">
+                {/* <div className="contact__content">
                     <h3 className="contact__title">Write me!</h3>
 
                     <form ref={form} onSubmit={sendEmail} className="contact__form">
@@ -89,7 +89,7 @@ const Contact = () => {
                             </svg>
                         </button>
                     </form>
-                </div>
+                </div> */}
             </div>
         </section>
     )

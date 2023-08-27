@@ -5,6 +5,8 @@ import Viz from './Viz';
 import Wrangle from './Wrangle';
 import Stats from './Stats';
 import Present from './Present';
+import AppDev from './app_dev';
+import Geodata from './Geodata';
 
 const Skills = () => {
   return (
@@ -18,6 +20,9 @@ const Skills = () => {
 <Wrangle />
 <Stats />
 <Present />
+<AppDev />
+<Geodata />
+
         </div>
     </section>
   )

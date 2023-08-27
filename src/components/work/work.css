@@ -126,6 +126,20 @@
     transform: translateX(0.25rem);
 }
 
+.work__tools {
+    /* Styles for the tool logos container */
+    /* Renders the logos below the other elements */
+    margin-top: 10px; /* Add some top margin to separate from other elements */
+    display: flex; /* Display logos in a horizontal row */
+    flex-wrap: wrap; /* Wrap logos to the next line if there's not enough space */
+    justify-content: center; /* Center logos horizontally */
+  }
+  
+
+  
+  
+  
+
 /* active work */
 .active-work {
     background-color: var(--title-color);

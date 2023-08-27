@@ -4,7 +4,7 @@ export const cv = [
         title: 'Federal University of Agriculture, Abeokuta',
         subtitle: 'Department of Agricultural and Bioresources Engineering',
         date: '2017 - 2022',
-        description: 'First Class Grad (4.55/5.00); Departmental Association Electoral Chairman (2019 - 2021); Chevron Scholar (2017)',
+        description: 'First Class Grad (4.58/5.00); Departmental Association Electoral Chairman (2019 - 2021); Chevron Scholar (2017)',
         category: 'education'
     },
 
@@ -37,10 +37,10 @@ export const cv = [
 
     {
         id: 5,
-        title: 'KPMG Australia',
-        subtitle: 'Virtual Internship',
-        date: '2022',
-        description: 'Optimised marketing strategy for biking company with Tableau',
+        title: 'Africa Trainovation Consulting',
+        subtitle: 'Data Analytics Instructor',
+        date: 'May 2023 - Present',
+        description: 'Conducted interactive workshops training students in using data analytics tools such as Power BI, Excel and SQL',
         category: 'experience'
     },
 ]
