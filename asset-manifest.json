@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react1/static/css/main.4b79c3e9.css",
-    "main.js": "/portfolio-react1/static/js/main.a4f6959a.js",
+    "main.css": "/portfolio-react1/static/css/main.d1d5173b.css",
+    "main.js": "/portfolio-react1/static/js/main.d335ecf3.js",
     "static/js/787.6e1dea8d.chunk.js": "/portfolio-react1/static/js/787.6e1dea8d.chunk.js",
     "static/media/gun_sales.jpg": "/portfolio-react1/static/media/gun_sales.d425649408281b408e10.jpg",
     "static/media/profile_a.JPG": "/portfolio-react1/static/media/profile_a.68a2c4ebd98cc738809b.JPG",
@@ -12,8 +12,8 @@
     "static/media/uk_road_accidents.png": "/portfolio-react1/static/media/uk_road_accidents.5c3f87d1219dd63239aa.png",
     "static/media/03.jpg": "/portfolio-react1/static/media/03.82670917fdf4909d2406.jpg",
     "static/media/adw.png": "/portfolio-react1/static/media/adw.d85b9a4cc02c75fa7bc0.png",
-    "static/media/resume.pdf": "/portfolio-react1/static/media/resume.6a54b7a198309fda1957.pdf",
     "static/media/tweet.png": "/portfolio-react1/static/media/tweet.01eb6d9409912fa2e2a6.png",
+    "static/media/resume.pdf": "/portfolio-react1/static/media/resume.74bc4809be998bc89a9f.pdf",
     "static/media/kimball.jpg": "/portfolio-react1/static/media/kimball.7f4333cb467230e0d977.jpg",
     "static/media/testimonial1.JPG": "/portfolio-react1/static/media/testimonial1.fe4ec095e179b718cba7.JPG",
     "static/media/call_centre_insights.png": "/portfolio-react1/static/media/call_centre_insights.4af2f12e5e0f475c86f8.png",
@@ -22,12 +22,12 @@
     "static/media/testimonial2.JPG": "/portfolio-react1/static/media/testimonial2.043f94df927e2c1c00bb.JPG",
     "static/media/cchs.png": "/portfolio-react1/static/media/cchs.9cd87de35fea039e56d0.png",
     "index.html": "/portfolio-react1/index.html",
-    "main.4b79c3e9.css.map": "/portfolio-react1/static/css/main.4b79c3e9.css.map",
-    "main.a4f6959a.js.map": "/portfolio-react1/static/js/main.a4f6959a.js.map",
+    "main.d1d5173b.css.map": "/portfolio-react1/static/css/main.d1d5173b.css.map",
+    "main.d335ecf3.js.map": "/portfolio-react1/static/js/main.d335ecf3.js.map",
     "787.6e1dea8d.chunk.js.map": "/portfolio-react1/static/js/787.6e1dea8d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b79c3e9.css",
-    "static/js/main.a4f6959a.js"
+    "static/css/main.d1d5173b.css",
+    "static/js/main.d335ecf3.js"
   ]
 }
