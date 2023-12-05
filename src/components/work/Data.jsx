@@ -8,8 +8,19 @@ import Work7 from '../../assets/portfolio_images/customer_retention.jpg';
 import Work8 from '../../assets/portfolio_images/tweet.png';
 import Work9 from '../../assets/portfolio_images/hr.JPG';
 import Work10 from '../../assets/portfolio_images/lead_aq.png';
+import Work11 from '../../assets/portfolio_images/sleep.jpg'
 
 export const projectsData = [
+    {
+        id: 0,
+        image: Work11,
+        title: "Exploring Relationships of Variables in Sleep Data With Regression",
+        category: "Playground",
+        code_link: 'https://joshuaolubori.onrender.com/posts/2023-11-18_sleep-disorders/',
+        demo_link: 'https://joshuaolubori.onrender.com/posts/2023-11-18_sleep-disorders/',
+        tech: ['R']
+
+    },
     {
         id: 1,
         image: Work1,
@@ -27,7 +38,7 @@ export const projectsData = [
         category: "Projects",
         code_link: 'https://github.com/JoshuaOlubori/chief-cornerstone-high-school-db-app',
         demo_link: 'https://github.com/JoshuaOlubori/chief-cornerstone-high-school-db-app',
-        tech: ['Python', 'FastAPI'],
+        tech: ['Python', 'Flask'],
 
     },
     {
