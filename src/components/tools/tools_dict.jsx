@@ -1,53 +1,3 @@
-import Work1 from '../../assets/portfolio_images/data-eng.jpg';
-import Work2 from '../../assets/portfolio_images/bi.jpg'
-import Work3 from '../../assets/portfolio_images/statistics.jpg';
-import Work4 from '../../assets/portfolio_images/python.jpg';
-// import Work5 from '../../assets/portfolio_images/gun_sales.jpg';
-// import Work6 from '../../assets/portfolio_images/call_centre_insights.png';
-// import Work7 from '../../assets/portfolio_images/customer_retention.jpg';
-// import Work8 from '../../assets/portfolio_images/tweet.png';
-// import Work9 from '../../assets/portfolio_images/hr.JPG';
-// import Work10 from '../../assets/portfolio_images/lead_aq.png';
-import Work11 from '../../assets/portfolio_images/sql.png'
-
-export const projectsData = [
-    {
-        id: 0,
-        image: Work11,
-        title: "SQL",
-        link: 'https://joshuaolubori.onrender.com/posts_index.html#category=sql',
-
-    },
-    {
-        id: 1,
-        image: Work1,
-        title: "Data Engineering",
-        link: 'https://joshuaolubori.onrender.com/posts_index.html#category=data%20engineering',
-
-    },
-    {
-        id: 2,
-        image: Work2,
-        title: "Business Intelligence & Data Visualization",
-        link: 'https://joshuaolubori.onrender.com/posts_index.html#category=data%20visualisation',
-
-    },
-    {
-        id: 3,
-        image: Work3,
-        title: "Inferential Statistics",
-        link: 'https://joshuaolubori.onrender.com/posts_index.html#category=statistics',
-
-    },
-    {
-        id: 4,
-        image: Work4,
-        title: "Pythonic Data Wrangling",
-        link: 'https://joshuaolubori.onrender.com/posts_index.html#category=python',
-    },
-];
-
-
 export const toolsDictionary = {
     'Power BI': 'https://img.shields.io/static/v1?style=for-thebadge&message=Power+BI&color=222222&logo=Power+BI&logoColor=F2C811&label=',
     'Microsoft Excel': 'https://img.shields.io/static/v1?style=for-the-badge&message=Microsoft+Excel&color=217346&logo=Microsoft+Excel&logoColor=FFFFFF&',
@@ -68,16 +18,3 @@ export const toolsDictionary = {
     'FastAPI': 'https://img.shields.io/static/v1?style=for-the-badge&message=FastAPI&color=009688&logo=FastAPI&logoColor=FFFFFF&label=',
     'Flask': 'https://img.shields.io/static/v1?style=for-the-badge&message=Flask&color=000000&logo=Flask&logoColor=FFFFFF&label='
   };
-
-// export const projectsNav = [
-//     {
-//         name: 'all',
-//     },
-//     {
-//         name: 'Projects',
-//     },
-//     {
-//         name: 'Playground',
-//     }
-// ];
-

@@ -52,6 +52,7 @@
 
 .work__title {
     font-size: var(--normal-font-size);
+    text-align: center;
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-0-5);
 }
@@ -67,9 +68,9 @@
 
 .work__button-clicky {
     color: white;
-    
+/*     
     display: flex;
-    align-items: center;
+    align-items: center; */
     column-gap: 0.25rem;
     background-color:var(--title-color);
     padding: 0.5em;

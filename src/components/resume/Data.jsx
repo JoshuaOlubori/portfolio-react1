@@ -3,7 +3,7 @@ export const cv = [
         id: 1,
         title: 'Federal University of Agriculture, Abeokuta',
         subtitle: 'Department of Agricultural and Bioresources Engineering',
-        date: '2017 - 2022',
+        date: '2017 - 2023',
         description: 'First Class Grad (4.58/5.00); Departmental Association Electoral Chairman (2019 - 2021); Chevron Scholar (2017)',
         category: 'education'
     },
