@@ -1,33 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio-react1/static/css/main.d1d5173b.css",
-    "main.js": "/portfolio-react1/static/js/main.b9569d9d.js",
-    "static/js/787.6e1dea8d.chunk.js": "/portfolio-react1/static/js/787.6e1dea8d.chunk.js",
-    "static/media/gun_sales.jpg": "/portfolio-react1/static/media/gun_sales.d425649408281b408e10.jpg",
+    "main.css": "/portfolio-react1/static/css/main.8330aa9e.css",
+    "main.js": "/portfolio-react1/static/js/main.e8253088.js",
+    "static/js/787.475eadbc.chunk.js": "/portfolio-react1/static/js/787.475eadbc.chunk.js",
     "static/media/profile_a.JPG": "/portfolio-react1/static/media/profile_a.68a2c4ebd98cc738809b.JPG",
     "static/media/profile_b.JPG": "/portfolio-react1/static/media/profile_b.c41ad76e9c8ee9e3ba9d.JPG",
-    "static/media/customer_retention.jpg": "/portfolio-react1/static/media/customer_retention.96d704110293ba443eb9.jpg",
-    "static/media/hr.JPG": "/portfolio-react1/static/media/hr.7ec5bc63f863a6d19f7a.JPG",
-    "static/media/work1.jpg": "/portfolio-react1/static/media/work1.556153ef4960e6632b70.jpg",
-    "static/media/uk_road_accidents.png": "/portfolio-react1/static/media/uk_road_accidents.5c3f87d1219dd63239aa.png",
+    "static/media/python.jpg": "/portfolio-react1/static/media/python.f91d34d9b5b17c682a1f.jpg",
     "static/media/03.jpg": "/portfolio-react1/static/media/03.82670917fdf4909d2406.jpg",
-    "static/media/adw.png": "/portfolio-react1/static/media/adw.d85b9a4cc02c75fa7bc0.png",
-    "static/media/tweet.png": "/portfolio-react1/static/media/tweet.01eb6d9409912fa2e2a6.png",
-    "static/media/resume.pdf": "/portfolio-react1/static/media/resume.74bc4809be998bc89a9f.pdf",
+    "static/media/resume.pdf": "/portfolio-react1/static/media/resume.1356ae04b2ccbe53193c.pdf",
     "static/media/kimball.jpg": "/portfolio-react1/static/media/kimball.7f4333cb467230e0d977.jpg",
     "static/media/testimonial1.JPG": "/portfolio-react1/static/media/testimonial1.fe4ec095e179b718cba7.JPG",
-    "static/media/call_centre_insights.png": "/portfolio-react1/static/media/call_centre_insights.4af2f12e5e0f475c86f8.png",
-    "static/media/lead_aq.png": "/portfolio-react1/static/media/lead_aq.c271102fdcfd3902b583.png",
+    "static/media/sql.png": "/portfolio-react1/static/media/sql.8aa157ed550d4429ecb8.png",
     "static/media/data-books.jpg": "/portfolio-react1/static/media/data-books.18da9972c1c4da96b856.jpg",
+    "static/media/bi.jpg": "/portfolio-react1/static/media/bi.efa0018b3bb17ed4ce2c.jpg",
     "static/media/testimonial2.JPG": "/portfolio-react1/static/media/testimonial2.043f94df927e2c1c00bb.JPG",
-    "static/media/cchs.png": "/portfolio-react1/static/media/cchs.9cd87de35fea039e56d0.png",
+    "static/media/statistics.jpg": "/portfolio-react1/static/media/statistics.5467369becd3be3e716b.jpg",
+    "static/media/data-eng.jpg": "/portfolio-react1/static/media/data-eng.ce83f058d0468ef7a639.jpg",
     "index.html": "/portfolio-react1/index.html",
-    "main.d1d5173b.css.map": "/portfolio-react1/static/css/main.d1d5173b.css.map",
-    "main.b9569d9d.js.map": "/portfolio-react1/static/js/main.b9569d9d.js.map",
-    "787.6e1dea8d.chunk.js.map": "/portfolio-react1/static/js/787.6e1dea8d.chunk.js.map"
+    "main.8330aa9e.css.map": "/portfolio-react1/static/css/main.8330aa9e.css.map",
+    "main.e8253088.js.map": "/portfolio-react1/static/js/main.e8253088.js.map",
+    "787.475eadbc.chunk.js.map": "/portfolio-react1/static/js/787.475eadbc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1d5173b.css",
-    "static/js/main.b9569d9d.js"
+    "static/css/main.8330aa9e.css",
+    "static/js/main.e8253088.js"
   ]
 }
