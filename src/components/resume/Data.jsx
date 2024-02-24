@@ -39,8 +39,16 @@ export const cv = [
         id: 5,
         title: 'Africa Trainovation Consulting',
         subtitle: 'Data Analytics Instructor',
-        date: 'May 2023 - Present',
+        date: 'May 2023 - Sept 2023',
         description: 'Conducted interactive workshops training students in using data analytics tools such as Power BI, Excel and SQL',
+        category: 'experience'
+    },
+    {
+        id: 6,
+        title: 'Oduduwa University',
+        subtitle: 'Graduate Assistant & Freelancer',
+        date: 'Sept 2023 - Present',
+        description: 'Research Assitant under the guidance of Dr. Jacobs Olowoyo at Oduduwa University; Engaging with an international clientele of researchers, developers and business intelligence professionals to address their data-related needs',
         category: 'experience'
     },
 ]
