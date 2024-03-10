@@ -55,7 +55,7 @@ const Data = () => {
                     ></path>
                 </svg>
             </h1>
-            <h3 className="home__subtitle">Data Engineer</h3>
+            <h3 className="home__subtitle">Data Analyst/Engineer</h3>
             <p className="home__description">
                 I set data free from the confines of spreadsheets and tables,
                 telling its story in the process!
