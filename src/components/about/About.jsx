@@ -16,7 +16,7 @@ const About = () => {
                 <div className="about__data">
                     <Info />
                     <p className="about__description">{description}</p>
-                    <a download="" href={CV} className="button button--flex">Download CV/Resume
+                    <a download="Edun_Joshua_resume.pdf" href={CV} className="button button--flex">Download CV/Resume
                         <svg
                             class="button__icon"
                             xmlns="http://www.w3.org/2000/svg"
