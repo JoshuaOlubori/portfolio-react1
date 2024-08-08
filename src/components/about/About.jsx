@@ -6,7 +6,7 @@ import CV from '../../assets/resume.pdf';
 import Info from './Info';
 
 const About = () => {
-    const description = 'I am a data professional. You can trust me to help your organization make data-driven decisions.'
+    const description = 'You can trust me to help you make data-driven decisions.'
     return (
         <section className="about section" id="about">
             <h2 className="section__title">About Me</h2>

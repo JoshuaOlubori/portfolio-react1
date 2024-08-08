@@ -51,4 +51,12 @@ export const cv = [
         description: 'Research Assitant under the guidance of Dr. Jacobs Olowoyo at Oduduwa University; Engaging with an international clientele of researchers, developers and business intelligence professionals to address their data-related needs',
         category: 'experience'
     },
+    {
+        id: 7,
+        title: 'EDMS™',
+        subtitle: 'Data Engineer',
+        date: 'July 2024 - Present',
+        description: 'Worked in the Data Integration team consisting of an international team of developers.   Built and maintained ETL (Extract Transform and Load) pipelines in Transact-SQL for hundreds of clinics in the US and Canada using differing third-party dental Practice Management Systems (PMS).',
+        category: 'experience'
+    }
 ]
