@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio-react1/static/css/main.8330aa9e.css",
-    "main.js": "/portfolio-react1/static/js/main.60b610d9.js",
+    "main.js": "/portfolio-react1/static/js/main.cd284126.js",
     "static/js/787.475eadbc.chunk.js": "/portfolio-react1/static/js/787.475eadbc.chunk.js",
     "static/media/profile_a.JPG": "/portfolio-react1/static/media/profile_a.68a2c4ebd98cc738809b.JPG",
     "static/media/profile_b.JPG": "/portfolio-react1/static/media/profile_b.c41ad76e9c8ee9e3ba9d.JPG",
     "static/media/python.jpg": "/portfolio-react1/static/media/python.f91d34d9b5b17c682a1f.jpg",
     "static/media/03.jpg": "/portfolio-react1/static/media/03.82670917fdf4909d2406.jpg",
-    "static/media/resume.pdf": "/portfolio-react1/static/media/resume.40dbfd770d4556fe1eeb.pdf",
+    "static/media/resume.pdf": "/portfolio-react1/static/media/resume.1de44211ac46e429ef46.pdf",
     "static/media/kimball.jpg": "/portfolio-react1/static/media/kimball.7f4333cb467230e0d977.jpg",
     "static/media/testimonial1.JPG": "/portfolio-react1/static/media/testimonial1.fe4ec095e179b718cba7.JPG",
     "static/media/sql.png": "/portfolio-react1/static/media/sql.8aa157ed550d4429ecb8.png",
@@ -18,11 +18,11 @@
     "static/media/data-eng.jpg": "/portfolio-react1/static/media/data-eng.ce83f058d0468ef7a639.jpg",
     "index.html": "/portfolio-react1/index.html",
     "main.8330aa9e.css.map": "/portfolio-react1/static/css/main.8330aa9e.css.map",
-    "main.60b610d9.js.map": "/portfolio-react1/static/js/main.60b610d9.js.map",
+    "main.cd284126.js.map": "/portfolio-react1/static/js/main.cd284126.js.map",
     "787.475eadbc.chunk.js.map": "/portfolio-react1/static/js/787.475eadbc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8330aa9e.css",
-    "static/js/main.60b610d9.js"
+    "static/js/main.cd284126.js"
   ]
 }
