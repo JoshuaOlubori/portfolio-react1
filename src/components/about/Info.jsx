@@ -5,21 +5,21 @@ const Info = () => {
     return (
         <div className="about__info grid">
             <div className="about__box">
-                <i className="bx bx-award about__icon"></i>
+                <i className="bx bx-award bx-tada about__icon"></i>
                 <h3 className="about__title">Experience</h3>
                 <span className="about__subtitle">3 years</span>
             </div>
 
              <div className="about__box">
-                <i className="bx bx-briefcase-alt about__icon"></i>
+                <i className="bx bx-briefcase-alt-2 bx-tada about__icon" ></i>
                 <h3 className="about__title">Reliable</h3>
                 <span className="about__subtitle">Real-world experience</span>
             </div>
 
             <div className="about__box">
-                <i className="bx bx-support about__icon"></i>
-                <h3 className="about__title">Support</h3>
-                <span className="about__subtitle">Online 24/7</span>
+                <i className="bx bxs-rocket bx-tada bx-rotate-180 about__icon"></i>
+                <h3 className="about__title">Skilled</h3>
+                <span className="about__subtitle">Continuous learning</span>
             </div> 
         </div>
     )
