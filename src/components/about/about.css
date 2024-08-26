@@ -22,7 +22,17 @@
   border-radius: 0.75rem;
   text-align: center;
   padding: 1rem 1.25rem;
+  
 }
+
+.about__box img {
+  transition: all 700ms ease-out;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+
 
 .about__icon {
   font-size: 1.5rem;
