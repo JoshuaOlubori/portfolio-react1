@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react1/static/css/main.dbca1aca.css",
-    "main.js": "/portfolio-react1/static/js/main.c6ce47fd.js",
+    "main.css": "/portfolio-react1/static/css/main.204959fd.css",
+    "main.js": "/portfolio-react1/static/js/main.6e97e9a6.js",
     "static/js/787.475eadbc.chunk.js": "/portfolio-react1/static/js/787.475eadbc.chunk.js",
     "static/media/profile_b.JPG": "/portfolio-react1/static/media/profile_b.c41ad76e9c8ee9e3ba9d.JPG",
     "static/media/profile_a.jpeg": "/portfolio-react1/static/media/profile_a.bfa12df97573993732e6.jpeg",
@@ -14,15 +14,18 @@
     "static/media/data-books.jpg": "/portfolio-react1/static/media/data-books.18da9972c1c4da96b856.jpg",
     "static/media/bi.jpg": "/portfolio-react1/static/media/bi.efa0018b3bb17ed4ce2c.jpg",
     "static/media/testimonial2.JPG": "/portfolio-react1/static/media/testimonial2.043f94df927e2c1c00bb.JPG",
+    "static/media/DA - Badge with outline.png": "/portfolio-react1/static/media/DA - Badge with outline.b4f3e73476be6450ee91.png",
     "static/media/statistics.jpg": "/portfolio-react1/static/media/statistics.5467369becd3be3e716b.jpg",
+    "static/media/SQL Associate - badge with outline.png": "/portfolio-react1/static/media/SQL Associate - badge with outline.0ca7eb6fd0a042086b16.png",
     "static/media/data-eng.jpg": "/portfolio-react1/static/media/data-eng.ce83f058d0468ef7a639.jpg",
+    "static/media/Google Data Analytics Specialization.png": "/portfolio-react1/static/media/Google Data Analytics Specialization.10d65853bbd8154018a7.png",
     "index.html": "/portfolio-react1/index.html",
-    "main.dbca1aca.css.map": "/portfolio-react1/static/css/main.dbca1aca.css.map",
-    "main.c6ce47fd.js.map": "/portfolio-react1/static/js/main.c6ce47fd.js.map",
+    "main.204959fd.css.map": "/portfolio-react1/static/css/main.204959fd.css.map",
+    "main.6e97e9a6.js.map": "/portfolio-react1/static/js/main.6e97e9a6.js.map",
     "787.475eadbc.chunk.js.map": "/portfolio-react1/static/js/787.475eadbc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbca1aca.css",
-    "static/js/main.c6ce47fd.js"
+    "static/css/main.204959fd.css",
+    "static/js/main.6e97e9a6.js"
   ]
 }
