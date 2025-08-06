@@ -15,10 +15,11 @@ import Resume from './components/resume/Resume';
 import Blog from './components/blog/Blog';
 import ToolGrid from './components/tools/tools';
 import SkipToPortfolio from './components/SkipToPortfolio';
+import { DarkModeProvider } from './context/DarkModeContext';
 
 const App = () => {
   return (
-    <>
+    <DarkModeProvider>
       <SkipToPortfolio />
       <Header />
 
@@ -38,7 +39,7 @@ const App = () => {
       </main>
       <Footer />
       <ScrollUp />
-    </>
+    </DarkModeProvider>
   )
 }
 

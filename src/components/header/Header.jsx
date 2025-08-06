@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './header.css'
+import DarkModeToggle from '../DarkModeToggle'
 
 const Header = () => {
     /*=============== Change Background Header ===============*/
@@ -76,8 +77,11 @@ const Header = () => {
                     <i className="uil uil-times nav__close" onClick={() => showMenu(!Toggle)}></i>
                 </div>
 
-                <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
-                    <i className="uil uil-apps"></i>
+                <div className="nav__actions">
+                    <DarkModeToggle />
+                    <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
+                        <i className="uil uil-apps"></i>
+                    </div>
                 </div>
             </nav>
         </header>

@@ -1,0 +1,96 @@
+.toggle-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox-label {
+  background-color: #111;
+  width: 50px;
+  height: 26px;
+  border-radius: 50px;
+  position: relative;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.checkbox-label i {
+  font-size: 12px;
+  z-index: 1;
+  transition: color 0.3s ease;
+}
+
+.checkbox-label .uil-moon {
+  color: #f1c40f;
+}
+
+.checkbox-label .uil-sun {
+  color: #f39c12;
+}
+
+.checkbox-label .ball {
+  background-color: #fff;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.checkbox:checked + .checkbox-label .ball {
+  transform: translateX(24px);
+}
+
+.checkbox:focus + .checkbox-label {
+  outline: 2px solid var(--title-color);
+  outline-offset: 2px;
+}
+
+/* Dark mode adjustments */
+body.dark-mode .checkbox-label {
+  background-color: #333;
+}
+
+body.dark-mode .checkbox-label .ball {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Hover effects */
+.checkbox-label:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  .checkbox-label {
+    width: 45px;
+    height: 24px;
+  }
+  
+  .checkbox-label .ball {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .checkbox:checked + .checkbox-label .ball {
+    transform: translateX(21px);
+  }
+  
+  .checkbox-label i {
+    font-size: 11px;
+  }
+} 
