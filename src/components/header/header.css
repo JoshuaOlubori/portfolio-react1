@@ -9,9 +9,10 @@
     /* Semi-transparent background */
     background-color: rgba(255, 255, 255, 0.15); 
 
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
     /* The magic blur effect! */
     backdrop-filter: blur(10px); 
-    -webkit-backdrop-filter: blur(10px); /* Safari support */
+
 
     /* Adds a subtle border for definition */
     border: 1px solid rgba(255, 255, 255, 0.1); 
@@ -25,9 +26,10 @@ body.dark-mode .header {
     /* Using a darker semi-transparent background */
     background-color: rgba(0, 0, 0, 0.2); 
 
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
     /* Keeping the same blur effect */
     backdrop-filter: blur(10px); 
-    -webkit-backdrop-filter: blur(10px); /* Safari support */
+
 
     /* Adjusting the border for a darker theme */
     border: 1px solid rgba(255, 255, 255, 0.05); 
@@ -35,9 +37,7 @@ body.dark-mode .header {
     /* Adjusting the box-shadow for a darker theme */
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3); 
 
-     /* Force hardware acceleration */
-     transform: translateZ(0);
-     will-change: backdrop-filter;
+
 }
 
 body.dark-mode .nav{
@@ -45,8 +45,9 @@ body.dark-mode .nav{
     background-color: rgba(0, 0, 0, 0.2); 
 
     /* Keeping the same blur effect */
-    backdrop-filter: blur(10px); 
     -webkit-backdrop-filter: blur(10px); /* Safari support */
+    backdrop-filter: blur(10px); 
+   
 
     /* Adjusting the border for a darker theme */
     border: 1px solid rgba(255, 255, 255, 0.05); 
@@ -57,9 +58,7 @@ body.dark-mode .nav{
     padding-inline: 1.5rem;
     border-radius: 1rem;
 
-     /* Force hardware acceleration */
-     transform: translateZ(0);
-     will-change: backdrop-filter;
+   
 }
 
 .nav {
