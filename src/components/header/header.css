@@ -23,7 +23,8 @@
 /* --- Dark Mode Styles for the Navbar on LARGE screens--- */
 body.dark-mode .header {
   /* Using a darker semi-transparent background */
-  background-color: rgba(0, 0, 0, 0.2);
+  /* background-color: rgba(0, 0, 0, 0.2); */
+  background-color: rgba(0, 0, 0, 0.35); 
 
   -webkit-backdrop-filter: blur(10px); /* Safari support */
   /* Keeping the same blur effect */
@@ -38,7 +39,8 @@ body.dark-mode .header {
 
 body.dark-mode .nav {
   /* Using a darker semi-transparent background */
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.35); 
+  /* background-color: rgba(0, 0, 0, 0.2); */
 
   /* Keeping the same blur effect */
   -webkit-backdrop-filter: blur(10px); /* Safari support */
