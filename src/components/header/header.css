@@ -34,6 +34,10 @@ body.dark-mode .header {
 
     /* Adjusting the box-shadow for a darker theme */
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3); 
+
+     /* Force hardware acceleration */
+     transform: translateZ(0);
+     will-change: backdrop-filter;
 }
 
 body.dark-mode .nav{
@@ -52,6 +56,10 @@ body.dark-mode .nav{
 
     padding-inline: 1.5rem;
     border-radius: 1rem;
+
+     /* Force hardware acceleration */
+     transform: translateZ(0);
+     will-change: backdrop-filter;
 }
 
 .nav {
