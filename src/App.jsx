@@ -14,11 +14,12 @@ import ScrollUp from './components/scrollup/ScrollUp';
 import Resume from './components/resume/Resume';
 import Blog from './components/blog/Blog';
 import ToolGrid from './components/tools/tools';
+import SkipToPortfolio from './components/SkipToPortfolio';
 
 const App = () => {
   return (
     <>
-
+      <SkipToPortfolio />
       <Header />
 
       <main className='main'>
