@@ -4,57 +4,52 @@
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: var(--body-color);
 
+    /* --- Glassmorphism Effect for LARGE screens --- */
+    /* Semi-transparent background */
+    background-color: rgba(255, 255, 255, 0.15); 
 
-    /* --- Glassmorphism Effect --- */
-  /* Semi-transparent background */
-  background-color: rgba(255, 255, 255, 0.15); 
-  
-  /* The magic blur effect! */
-  backdrop-filter: blur(10px); 
-  
-  /* Adds a subtle border for definition */
-  border: 1px solid rgba(255, 255, 255, 0.1); 
-  
-  /* Creates depth and shadow */
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
-  
+    /* The magic blur effect! */
+    backdrop-filter: blur(10px); 
 
+    /* Adds a subtle border for definition */
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+
+    /* Creates depth and shadow */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
 }
 
-/* --- Dark Mode Styles for the Navbar --- */
-body.dark-mode .header{
+/* --- Dark Mode Styles for the Navbar on LARGE screens--- */
+body.dark-mode .header {
     /* Using a darker semi-transparent background */
     background-color: rgba(0, 0, 0, 0.2); 
-    
+
     /* Keeping the same blur effect */
     backdrop-filter: blur(10px); 
-    
+
     /* Adjusting the border for a darker theme */
     border: 1px solid rgba(255, 255, 255, 0.05); 
-    
+
     /* Adjusting the box-shadow for a darker theme */
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3); 
-  }
+}
 
-  body.dark-mode .nav{
+body.dark-mode .nav{
     /* Using a darker semi-transparent background */
     background-color: rgba(0, 0, 0, 0.2); 
-    
+
     /* Keeping the same blur effect */
     backdrop-filter: blur(10px); 
-    
+
     /* Adjusting the border for a darker theme */
     border: 1px solid rgba(255, 255, 255, 0.05); 
-    
+
     /* Adjusting the box-shadow for a darker theme */
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3); 
-  
-  padding-inline: 1.5rem;
-  border-radius: 1rem;
 
-  }
+    padding-inline: 1.5rem;
+    border-radius: 1rem;
+}
 
 .nav {
     height: calc(var(--header-height) + 1.5rem);
@@ -73,7 +68,19 @@ body.dark-mode .header{
 .nav__actions {
     display: flex;
     align-items: center;
-    gap: 45vw;
+    gap: 1rem;
+}
+
+.nav__portfolio-btn {
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    text-decoration: none;
+    font-size: var(--small-font-size);
+    transition: .3s;
+}
+
+.nav__portfolio-btn:hover {
+    color: var(--title-color-dark);
 }
 
 .nav__list{ 
@@ -107,77 +114,55 @@ body.dark-mode .header{
 .scroll-header{
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
+
 /*=============== BREAKPOINTS ===============*/
 /* For medium devices */
 @media screen and (max-width: 768px) {
     .header {
-      top: initial;
-      bottom: 0;
+        top: initial;
+        bottom: 0;
     }
 
     .nav {
         height: var(--header-height);
+        padding: 0 1.5rem;
     }
 
-    .nav__menu{
-        position: fixed;
-        bottom: -100%;
-        left: 0;
-        width: 100%;
-        background-color: var(--body-color);
-        padding: 2rem 1.5rem 4rem;
-        box-shadow: 0 -1px 4px rgba(0,0,0,0.15);
-        border-radius: 1.5rem 1.5rem 0 0;
-        transition: .3s;
-    }
-
-    /* Show Menu */
-    .show-menu {
-        bottom: 0;
-    }
-
-    .nav__list {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 2rem;
-    }
-
-    .nav__icon {
-        font-size: 1.2rem;
-    }
-
-    .nav__close {
-        position: absolute;
-        right: 1.3rem;
-        bottom: .5rem;
-        font-size: 1.5rem;
-        cursor: pointer;
-        color: var(--title-color);
-    }
-
-    .nav__close:hover {
-        color: var(--title-color-dark); 
-    }
-
+    /* Hide the entire menu and toggle button on mobile */
+    .nav__menu,
     .nav__toggle {
-        font-size: 1.1rem;
-        cursor: pointer;
+        display: none !important;
     }
 
-    .nav__icon,
-    .nav__close,
-    .nav__toggle {
+    /* Show only the portfolio button on mobile */
+    .nav__portfolio-btn {
         display: block;
+    }
+
+    .nav__actions {
+        gap: 45vw;
+        
+    }
+
+    /* Hide menu-related elements */
+    .nav__list,
+    .nav__close,
+    .nav__icon {
+        display: none !important;
+    }
+
+    .toggle-container{
+        margin-right: 40vw;
     }
 }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-    .nav__menu {
-    padding: 2rem 0.25rem 4rem;
+    .nav {
+        padding: 0 1rem;
     }
-
-    .nav__list {
-        column-gap: 0;
+    
+    .nav__actions {
+        gap: 0.5rem;
     }
 }
