@@ -5,7 +5,56 @@
     left: 0;
     z-index: var(--z-fixed);
     background-color: var(--body-color);
+
+
+    /* --- Glassmorphism Effect --- */
+  /* Semi-transparent background */
+  background-color: rgba(255, 255, 255, 0.15); 
+  
+  /* The magic blur effect! */
+  backdrop-filter: blur(10px); 
+  
+  /* Adds a subtle border for definition */
+  border: 1px solid rgba(255, 255, 255, 0.1); 
+  
+  /* Creates depth and shadow */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
+  
+
 }
+
+/* --- Dark Mode Styles for the Navbar --- */
+body.dark-mode .header{
+    /* Using a darker semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.2); 
+    
+    /* Keeping the same blur effect */
+    backdrop-filter: blur(10px); 
+    
+    /* Adjusting the border for a darker theme */
+    border: 1px solid rgba(255, 255, 255, 0.05); 
+    
+    /* Adjusting the box-shadow for a darker theme */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3); 
+  }
+
+  body.dark-mode .nav{
+    /* Using a darker semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.2); 
+    
+    /* Keeping the same blur effect */
+    backdrop-filter: blur(10px); 
+    
+    /* Adjusting the border for a darker theme */
+    border: 1px solid rgba(255, 255, 255, 0.05); 
+    
+    /* Adjusting the box-shadow for a darker theme */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3); 
+  
+  padding-inline: 1.5rem;
+  border-radius: 1rem;
+
+  }
 
 .nav {
     height: calc(var(--header-height) + 1.5rem);
