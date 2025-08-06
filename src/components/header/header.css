@@ -1,178 +1,170 @@
 .header {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: var(--z-fixed);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-fixed);
 
-    /* --- Glassmorphism Effect for LARGE screens --- */
-    /* Semi-transparent background */
-    background-color: rgba(255, 255, 255, 0.15); 
+  /* --- Glassmorphism Effect for LARGE screens --- */
+  /* Semi-transparent background */
+  background-color: rgba(255, 255, 255, 0.15);
 
-    -webkit-backdrop-filter: blur(10px); /* Safari support */
-    /* The magic blur effect! */
-    backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  /* The magic blur effect! */
+  backdrop-filter: blur(10px);
 
+  /* Adds a subtle border for definition */
+  border: 1px solid rgba(255, 255, 255, 0.1);
 
-    /* Adds a subtle border for definition */
-    border: 1px solid rgba(255, 255, 255, 0.1); 
-
-    /* Creates depth and shadow */
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
+  /* Creates depth and shadow */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
 /* --- Dark Mode Styles for the Navbar on LARGE screens--- */
 body.dark-mode .header {
-    /* Using a darker semi-transparent background */
-    background-color: rgba(0, 0, 0, 0.2); 
+  /* Using a darker semi-transparent background */
+  background-color: rgba(0, 0, 0, 0.2);
 
-    -webkit-backdrop-filter: blur(10px); /* Safari support */
-    /* Keeping the same blur effect */
-    backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  /* Keeping the same blur effect */
+  backdrop-filter: blur(10px);
 
+  /* Adjusting the border for a darker theme */
+  border: 1px solid rgba(255, 255, 255, 0.05);
 
-    /* Adjusting the border for a darker theme */
-    border: 1px solid rgba(255, 255, 255, 0.05); 
-
-    /* Adjusting the box-shadow for a darker theme */
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3); 
-
-
+  /* Adjusting the box-shadow for a darker theme */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
 }
 
-body.dark-mode .nav{
-    /* Using a darker semi-transparent background */
-    background-color: rgba(0, 0, 0, 0.2); 
+body.dark-mode .nav {
+  /* Using a darker semi-transparent background */
+  background-color: rgba(0, 0, 0, 0.2);
 
-    /* Keeping the same blur effect */
-    -webkit-backdrop-filter: blur(10px); /* Safari support */
-    backdrop-filter: blur(10px); 
-   
+  /* Keeping the same blur effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  backdrop-filter: blur(10px);
 
-    /* Adjusting the border for a darker theme */
-    border: 1px solid rgba(255, 255, 255, 0.05); 
+  /* Adjusting the border for a darker theme */
+  border: 1px solid rgba(255, 255, 255, 0.05);
 
-    /* Adjusting the box-shadow for a darker theme */
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3); 
+  /* Adjusting the box-shadow for a darker theme */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
 
-    padding-inline: 1.5rem;
-    border-radius: 1rem;
-
-   
+  padding-inline: 1.5rem;
+  border-radius: 1rem;
 }
 
 .nav {
-    height: calc(var(--header-height) + 1.5rem);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    column-gap: 1rem;
+  height: calc(var(--header-height) + 1.5rem);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 1rem;
 }
 
 .nav__logo,
 .nav__toggle {
-    color: var(--title-color);
-    font-weight: var(--font-medium);
+  color: var(--title-color);
+  font-weight: var(--font-medium);
 }
 
 .nav__actions {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .nav__portfolio-btn {
-    color: var(--title-color);
-    font-weight: var(--font-medium);
-    text-decoration: none;
-    font-size: var(--small-font-size);
-    transition: .3s;
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+  text-decoration: none;
+  font-size: var(--small-font-size);
+  transition: 0.3s;
 }
 
 .nav__portfolio-btn:hover {
-    color: var(--title-color-dark);
+  color: var(--title-color-dark);
 }
 
-.nav__list{ 
-    display: flex;
-    column-gap: 2rem;
+.nav__list {
+  display: flex;
+  column-gap: 2rem;
 }
 
 .nav__link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: var(--small-font-size);
-    color: var(--title-color);
-    font-weight: var(--font-medium);
-    transition: .3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: var(--small-font-size);
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+  transition: 0.3s;
 }
 
 .nav__icon,
 .nav__close,
-.nav__toggle { 
-    display: none;
+.nav__toggle {
+  display: none;
 }
 
 /* Active link */
 .active-link,
 .nav__link:hover {
-    color: var(--title-color-dark);
+  color: var(--title-color-dark);
 }
 
 /* Change background header */
-.scroll-header{
-    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+.scroll-header {
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
 
 /*=============== BREAKPOINTS ===============*/
 /* For medium devices */
 @media screen and (max-width: 768px) {
-    .header {
-        top: initial;
-        bottom: 0;
-    }
+  .header {
+    top: initial;
+    bottom: 0;
+  }
 
-    .nav {
-        height: var(--header-height);
-        padding: 0 1.5rem;
-    }
+  .nav {
+    height: var(--header-height);
+    padding: 0 1.5rem;
+  }
 
-    /* Hide the entire menu and toggle button on mobile */
-    .nav__menu,
-    .nav__toggle {
-        display: none !important;
-    }
+  /* Hide the entire menu and toggle button on mobile */
+  .nav__menu,
+  .nav__toggle {
+    display: none !important;
+  }
 
-    /* Show only the portfolio button on mobile */
-    .nav__portfolio-btn {
-        display: block;
-    }
+  /* Show only the portfolio button on mobile */
+  .nav__portfolio-btn {
+    display: block;
+  }
 
-    .nav__actions {
-        gap: 45vw;
-        
-    }
+  .nav__actions {
+    gap: 45vw;
+  }
 
-    /* Hide menu-related elements */
-    .nav__list,
-    .nav__close,
-    .nav__icon {
-        display: none !important;
-    }
+  /* Hide menu-related elements */
+  .nav__list,
+  .nav__close,
+  .nav__icon {
+    display: none !important;
+  }
 
-    .toggle-container{
-        margin-right: 40vw;
-    }
+  .toggle-container {
+    margin-right: 40vw;
+  }
 }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-    .nav {
-        padding: 0 1rem;
-    }
-    
-    .nav__actions {
-        gap: 0.5rem;
-    }
+  .nav {
+    padding: 0 1rem;
+  }
+
+  .nav__actions {
+    gap: 0.5rem;
+  }
 }
