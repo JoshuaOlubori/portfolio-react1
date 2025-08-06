@@ -11,6 +11,7 @@
 
     /* The magic blur effect! */
     backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
 
     /* Adds a subtle border for definition */
     border: 1px solid rgba(255, 255, 255, 0.1); 
@@ -26,6 +27,7 @@ body.dark-mode .header {
 
     /* Keeping the same blur effect */
     backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
 
     /* Adjusting the border for a darker theme */
     border: 1px solid rgba(255, 255, 255, 0.05); 
@@ -40,6 +42,7 @@ body.dark-mode .nav{
 
     /* Keeping the same blur effect */
     backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
 
     /* Adjusting the border for a darker theme */
     border: 1px solid rgba(255, 255, 255, 0.05); 
