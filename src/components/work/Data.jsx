@@ -11,27 +11,29 @@ import Work4 from '../../assets/portfolio_images/python.jpg';
 import Work11 from '../../assets/portfolio_images/sql.png'
 
 export const projectsData = [
-    {
+
+        {
         id: 0,
+        image: Work2,
+        title: "Business Intelligence & Data Visualization",
+        link: 'https://joshuaolubori.onrender.com/posts_index.html#category=data%20visualisation',
+
+    },
+    {
+        id: 1,
         image: Work11,
         title: "SQL",
         link: 'https://joshuaolubori.onrender.com/posts_index.html#category=sql',
 
     },
     {
-        id: 1,
+        id: 2,
         image: Work1,
         title: "Data Engineering",
         link: 'https://joshuaolubori.onrender.com/posts_index.html#category=data%20engineering',
 
     },
-    {
-        id: 2,
-        image: Work2,
-        title: "Business Intelligence & Data Visualization",
-        link: 'https://joshuaolubori.onrender.com/posts_index.html#category=data%20visualisation',
 
-    },
     {
         id: 3,
         image: Work3,
