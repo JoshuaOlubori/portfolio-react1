@@ -11,7 +11,7 @@ import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
-import Resume from './components/resume/Resume';
+// import Resume from './components/resume/Resume';
 import Blog from './components/blog/Blog';
 import ToolGrid from './components/tools/tools';
 import SkipToPortfolio from './components/SkipToPortfolio';
@@ -30,7 +30,7 @@ const App = () => {
         {/* <Services /> */}
         {/* <Qualifications /> */}
         <ToolGrid />
-        <Resume />
+        {/* <Resume /> */}
         <Work />
         <Testimonials />
         <Blog />
